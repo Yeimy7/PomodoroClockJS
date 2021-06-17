@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/253385104e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js"></script>
+    <title>Pomodoro Clock</title>
+</head>
+
+<body>
+    <h1>Pomodoro Clock</h1>
+    <div class="container">
+        <div class="clock">
+            <h2 id="title">Session</h2>
+            <div id="time">25:00</div>
+            <div class="wrapper">
+                <button id="start_pause">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+        <div class="controls">
+            <div class="control">
+                <h3>Session Length</h3>
+                <span id="session-up"><i class="fas fa-arrow-circle-up"></i></span>
+                <p>
+                    <span id="session-length">25</span>
+                    min
+                </p>
+                <span id="session-down"><i class="fas fa-arrow-circle-down"></i></span>
+            </div>
+            <div class="control">
+                <h3>Break Length</h3>
+                <span id="break-up"><i class="fas fa-arrow-circle-up"></i></span>
+                <p>
+                    <span id="break-length">5</span>
+                    min
+                </p>
+                <span id="break-down"><i class="fas fa-arrow-circle-down"></i></span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
